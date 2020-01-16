@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = ')mp3kvelt&$x!njw#%fcu_d$)q+kw*mh6l)xwg76f_bfu)p^tk'#os.environ['SECRET_KEY']
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 SECURE_CONTENT_TYPE_NOSNIFF = True
