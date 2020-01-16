@@ -25,7 +25,7 @@ SECRET_KEY = ')mp3kvelt&$x!njw#%fcu_d$)q+kw*mh6l)xwg76f_bfu)p^tk'#os.environ['SE
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1']
 SECURE_CONTENT_TYPE_NOSNIFF = True
 SECURE_BROWSER_XSS_FILTER = True
 SESSION_COOKIE_SECURE = True
